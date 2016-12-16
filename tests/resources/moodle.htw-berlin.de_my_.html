@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html  dir="ltr" lang="de" xml:lang="de">
+<head>
+    <title>moodle htw berlin: Meine Startseite</title>
+    <link href='https://fonts.googleapis.com/css?family=Signika:300&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <!--link rel="shortcut icon" href="https://moodle.htw-berlin.de/theme/image.php/htw/theme/1474719679/favicon" /-->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="moodle, moodle htw berlin: Meine Startseite" />
+<script type="text/javascript">
+//<![CDATA[
+var M = {}; M.yui = {};
+M.pageloadstarttime = new Date();
+M.cfg = {"wwwroot":"https:\/\/moodle.htw-berlin.de","sesskey":"EnC7OmxcWr","loadingicon":"https:\/\/moodle.htw-berlin.de\/theme\/image.php\/htw\/core\/1474719679\/i\/loading_small","themerev":"1474719679","slasharguments":1,"theme":"htw","jsrev":"1474719679","svgicons":true};var yui1ConfigFn = function(me) {if(/-skin|reset|fonts|grids|base/.test(me.name)){me.type='css';me.path=me.path.replace(/\.js/,'.css');me.path=me.path.replace(/\/yui2-skin/,'/assets/skins/sam/yui2-skin')}};
+var yui2ConfigFn = function(me) {var parts=me.name.replace(/^moodle-/,'').split('-'),component=parts.shift(),module=parts[0],min='-min';if(/-(skin|core)$/.test(me.name)){parts.pop();me.type='css';min=''};if(module){var filename=parts.join('-');me.path=component+'/'+module+'/'+filename+min+'.'+me.type}else me.path=component+'/'+component+'.'+me.type};
+YUI_config = {"debug":false,"base":"https:\/\/moodle.htw-berlin.de\/lib\/yuilib\/3.15.0\/","comboBase":"https:\/\/moodle.htw-berlin.de\/theme\/yui_combo.php?","combine":true,"filter":null,"insertBefore":"firstthemesheet","groups":{"yui-patched":{"combine":true,"root":"3.15.0_1\/","patterns":{"dd-drag":{"group":"yui-patched"},"dd-gestures":{"group":"yui-patched"}},"modules":{"dd-drag":[],"dd-gestures":[]}},"yui2":{"base":"https:\/\/moodle.htw-berlin.de\/lib\/yuilib\/2in3\/2.9.0\/build\/","comboBase":"https:\/\/moodle.htw-berlin.de\/theme\/yui_combo.php?","combine":true,"ext":false,"root":"2in3\/2.9.0\/build\/","patterns":{"yui2-":{"group":"yui2","configFn":yui1ConfigFn}}},"moodle":{"name":"moodle","base":"https:\/\/moodle.htw-berlin.de\/theme\/yui_combo.php?m\/1474719679\/","combine":true,"comboBase":"https:\/\/moodle.htw-berlin.de\/theme\/yui_combo.php?","ext":false,"root":"m\/1474719679\/","patterns":{"moodle-":{"group":"moodle","configFn":yui2ConfigFn}},"filter":null,"modules":{"moodle-core-dragdrop":{"requires":["base","node","io","dom","dd","event-key","event-focus","moodle-core-notification"]},"moodle-core-maintenancemodetimer":{"requires":["base","node"]},"moodle-core-handlebars":{"condition":{"trigger":"handlebars","when":"after"}},"moodle-core-lockscroll":{"requires":["plugin","base-build"]},"moodle-core-popuphelp":{"requires":["moodle-core-tooltip"]},"moodle-core-notification":{"requires":["moodle-core-notification-dialogue","moodle-core-notification-alert","moodle-core-notification-confirm","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-core-notification-dialogue":{"requires":["base","node","panel","escape","event-key","dd-plugin","moodle-core-widget-focusafterclose","moodle-core-lockscroll"]},"moodle-core-notification-alert":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-confirm":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-exception":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-ajaxexception":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-dock":{"requires":["base","node","event-custom","event-mouseenter","event-resize","escape","moodle-core-dock-loader"]},"moodle-core-dock-loader":{"requires":["escape"]},"moodle-core-formchangechecker":{"requires":["base","event-focus"]},"moodle-core-blocks":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification"]},"moodle-core-chooserdialogue":{"requires":["base","panel","moodle-core-notification"]},"moodle-core-event":{"requires":["event-custom"]},"moodle-core-tooltip":{"requires":["base","node","io-base","moodle-core-notification-dialogue","json-parse","widget-position","widget-position-align","event-outside","cache-base"]},"moodle-core-checknet":{"requires":["base-base","moodle-core-notification-alert","io-base"]},"moodle-core-formautosubmit":{"requires":["base","event-key"]},"moodle-core-actionmenu":{"requires":["base","event","node-event-simulate"]},"moodle-core_availability-form":{"requires":["base","node","event","panel","moodle-core-notification-dialogue","json"]},"moodle-backup-backupselectall":{"requires":["node","event","node-event-simulate","anim"]},"moodle-backup-confirmcancel":{"requires":["node","node-event-simulate","moodle-core-notification-confirm"]},"moodle-calendar-eventmanager":{"requires":["base","node","event-mouseenter","overlay","moodle-calendar-eventmanager-skin"]},"moodle-course-modchooser":{"requires":["moodle-core-chooserdialogue","moodle-course-coursebase"]},"moodle-course-dragdrop":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification","moodle-course-coursebase","moodle-course-util"]},"moodle-course-management":{"requires":["base","node","io-base","moodle-core-notification-exception","json-parse","dd-constrain","dd-proxy","dd-drop","dd-delegate","node-event-delegate"]},"moodle-course-util":{"requires":["node"],"use":["moodle-course-util-base"],"submodules":{"moodle-course-util-base":{},"moodle-course-util-section":{"requires":["node","moodle-course-util-base"]},"moodle-course-util-cm":{"requires":["node","moodle-course-util-base"]}}},"moodle-course-formatchooser":{"requires":["base","node","node-event-simulate"]},"moodle-course-categoryexpander":{"requires":["node","event-key"]},"moodle-course-toolboxes":{"requires":["node","base","event-key","node","io","moodle-course-coursebase","moodle-course-util"]},"moodle-form-showadvanced":{"requires":["node","base","selector-css3"]},"moodle-form-passwordunmask":{"requires":["node","base"]},"moodle-form-shortforms":{"requires":["node","base","selector-css3","moodle-core-event"]},"moodle-question-chooser":{"requires":["moodle-core-chooserdialogue"]},"moodle-question-qbankmanager":{"requires":["node","selector-css3"]},"moodle-question-searchform":{"requires":["base","node"]},"moodle-question-preview":{"requires":["base","dom","event-delegate","event-key","core_question_engine"]},"moodle-availability_completion-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_date-form":{"requires":["base","node","event","io","moodle-core_availability-form"]},"moodle-availability_grade-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_group-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_grouping-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_profile-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-qtype_ddimageortext-dd":{"requires":["node","dd","dd-drop","dd-constrain"]},"moodle-qtype_ddimageortext-form":{"requires":["moodle-qtype_ddimageortext-dd","form_filepicker"]},"moodle-qtype_ddmarker-dd":{"requires":["node","event-resize","dd","dd-drop","dd-constrain","graphics"]},"moodle-qtype_ddmarker-form":{"requires":["moodle-qtype_ddmarker-dd","form_filepicker","graphics","escape"]},"moodle-qtype_ddwtos-dd":{"requires":["node","dd","dd-drop","dd-constrain"]},"moodle-qtype_stack-input":{"requires":["node","event-valuechange","moodle-core-event","io","json-parse"]},"moodle-mod_assign-history":{"requires":["node","transition"]},"moodle-mod_quiz-autosave":{"requires":["base","node","event","event-valuechange","node-event-delegate","io-form"]},"moodle-mod_scheduler-saveseen":{"requires":["base","node","event"]},"moodle-mod_scheduler-studentlist":{"requires":["base","node","event","io"]},"moodle-mod_scheduler-delselected":{"requires":["base","node","event"]},"moodle-mod_scheduler-limitchoices":{"requires":["base","node","event"]},"moodle-message_airnotifier-toolboxes":{"requires":["base","node","io"]},"moodle-block_navigation-navigation":{"requires":["base","io-base","node","event-synthetic","event-delegate","json-parse"]},"moodle-filter_glossary-autolinker":{"requires":["base","node","io-base","json-parse","event-delegate","overlay","moodle-core-event","moodle-core-notification-alert"]},"moodle-filter_mathjaxloader-loader":{"requires":["moodle-core-event"]},"moodle-editor_atto-rangy":{"requires":[]},"moodle-editor_atto-editor":{"requires":["node","io","overlay","escape","event","event-simulate","event-custom","yui-throttle","moodle-core-notification-dialogue","moodle-editor_atto-rangy","handlebars","timers"]},"moodle-editor_atto-plugin":{"requires":["node","base","escape","event","event-outside","handlebars","event-custom","timers"]},"moodle-editor_atto-menu":{"requires":["moodle-core-notification-dialogue","node","event","event-custom"]},"moodle-report_eventlist-eventfilter":{"requires":["base","event","node","node-event-delegate","datatable","autocomplete","autocomplete-filters"]},"moodle-report_loglive-fetchlogs":{"requires":["base","event","node","io","node-event-delegate"]},"moodle-gradereport_grader-scrollview":{"requires":["base","node"]},"moodle-tool_capability-search":{"requires":["base","node"]},"moodle-theme_bootstrapbase-bootstrap":{"requires":["node","selector-css3"]},"moodle-assignfeedback_editpdf-editor":{"requires":["base","event","node","io","graphics","json","event-move","event-resize","querystring-stringify-simple","moodle-core-notification-dialog","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-atto_accessibilitychecker-button":{"requires":["color-base","moodle-editor_atto-plugin"]},"moodle-atto_accessibilityhelper-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_align-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_bold-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_charmap-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_clear-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_collapse-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_emoticon-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_equation-button":{"requires":["moodle-editor_atto-plugin","moodle-core-event","io","event-valuechange","tabview","array-extras"]},"moodle-atto_html-button":{"requires":["moodle-editor_atto-plugin","event-valuechange"]},"moodle-atto_image-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_indent-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_italic-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_link-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_managefiles-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_managefiles-usedfiles":{"requires":["node","escape"]},"moodle-atto_media-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_noautolink-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_orderedlist-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_panoptobutton-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_rtl-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_strike-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_subscript-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_superscript-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_table-button":{"requires":["moodle-editor_atto-plugin","moodle-editor_atto-menu","event","event-valuechange"]},"moodle-atto_title-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_underline-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_undo-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_unorderedlist-button":{"requires":["moodle-editor_atto-plugin"]}}},"gallery":{"name":"gallery","base":"https:\/\/moodle.htw-berlin.de\/lib\/yuilib\/gallery\/","combine":true,"comboBase":"https:\/\/moodle.htw-berlin.de\/theme\/yui_combo.php?","ext":false,"root":"gallery\/1474719679\/","patterns":{"gallery-":{"group":"gallery"}}}},"modules":{"core_filepicker":{"name":"core_filepicker","fullpath":"https:\/\/moodle.htw-berlin.de\/lib\/javascript.php\/1474719679\/repository\/filepicker.js","requires":["base","node","node-event-simulate","json","async-queue","io-base","io-upload-iframe","io-form","yui2-treeview","panel","cookie","datatable","datatable-sort","resize-plugin","dd-plugin","escape","moodle-core_filepicker"]},"mathjax":{"name":"mathjax","fullpath":"https:\/\/cdn.mathjax.org\/mathjax\/2.3-latest\/MathJax.js?delayStartupUntil=configured"}}};
+M.yui.loader = {modules: {}};
+
+//]]>
+</script>
+<link rel="stylesheet" type="text/css" href="https://moodle.htw-berlin.de/theme/yui_combo.php?3.15.0/cssreset/cssreset-min.css&amp;3.15.0/cssfonts/cssfonts-min.css&amp;3.15.0/cssgrids/cssgrids-min.css&amp;3.15.0/cssbase/cssbase-min.css" /><link rel="stylesheet" type="text/css" href="https://moodle.htw-berlin.de/theme/yui_combo.php?rollup/3.15.0/yui-moodlesimple-min.css" /><script type="text/javascript" src="https://moodle.htw-berlin.de/theme/yui_combo.php?rollup/3.15.0_1/yui-moodlesimple-min.js&amp;rollup/1474719679/mcore-min.js"></script><script id="firstthemesheet" type="text/css">/** Required in order to fix style inclusion problems in IE with YUI **/</script><link rel="stylesheet" type="text/css" href="https://moodle.htw-berlin.de/theme/styles.php/htw/1474719679/all" />
+<script type="text/javascript" src="https://moodle.htw-berlin.de/lib/javascript.php/1474719679/lib/javascript-static.js"></script>
+</head>
+
+<body id="page-my-index" class="format-site  path-my safari dir-ltr lang-de yui-skin-sam yui3-skin-sam moodle-htw-berlin-de pagelayout-mydashboard course-1 context-1 side-post-only">
+<div class="skiplinks"><a class="skip" href="#maincontent">Zum Hauptinhalt</a></div>
+<script type="text/javascript">
+//<![CDATA[
+document.body.className += ' jsenabled';
+//]]>
+</script>
+
+
+<!--div style="background-color: red; text-align: center;color: white;">Wartungsarbeiten am 24.09.2016 zwischen 09:30 und 18:00 Uhr</div-->
+
+<!-- START OF HEADER -->
+
+
+
+
+<div id="page-header">
+	
+	<div id="header" >
+        <div style="float:left">
+            <a title="Zu meiner Startseite" href="https://moodle.htw-berlin.de"><img style="height:94px" alt="Zu meiner Startseite" src="https://moodle.htw-berlin.de/theme/image.php?theme=htw&component=theme&image=logohtwmoodle" /></a>
+        </div>
+
+        <div style="float:right">
+
+		
+			<div id="nologo">
+				moodle htw berlin: Meine Startseite			</div>
+
+		
+         <div id="loggedinas">
+
+			<div class="langmenu"><form method="get" action="https://moodle.htw-berlin.de/my/index.php" id="single_select_f58040d6c7df752"><div><label for="single_select58040d6c7df753"><span class="accesshide " >Sprache</span></label><select id="single_select58040d6c7df753" class="select autosubmit langmenu" name="lang"><option selected="selected" value="de">Deutsch (de)</option><option value="en">English (en)</option><option value="es">Español - Internacional (es)</option><option value="ru">Русский (ru)</option></select><noscript class="inline"><div><input type="submit" value="Start" /></div></noscript></div></form></div><a title="Zur HTW Berlin Webseite" href="https://www.htw-berlin.de/"><img alt="HTW Logo" style="margin-right: 26px;" src="https://moodle.htw-berlin.de/theme/image.php?theme=htw&component=theme&image=htw" /></a><div class="logininfo">Sie sind angemeldet als <a href="https://moodle.htw-berlin.de/user/profile.php?id=18619" title="Profil anzeigen">Yves Kaufmann</a> (<a href="https://moodle.htw-berlin.de/login/logout.php?sesskey=EnC7OmxcWr">Logout</a>)</div>			</div>
+            </div>
+			<!--</div>-->
+
+		<div id="headerbottom">
+
+			<div id="menu">
+							</div>
+			
+
+		</div>
+
+	</div>
+
+</div>
+<!-- END OF HEADER -->
+
+
+
+
+<div id="mypagewrapper">
+
+	<div id="page">
+
+		<div id="wrapper" class="clearfix">
+
+
+<!-- START OF CONTENT -->
+
+			<div id="page-content-wrapper" class="wrapper clearfix">
+		    	<div id="page-content">
+    		    	<div id="region-main-box">
+        		    	<div id="region-post-box">
+
+	            	    	<div id="region-main-wrap">
+    	            	    	<div id="region-main">
+        	            	    	<div class="region-content">
+
+        	            	                     	    							<div class="navbar">
+            									<div class="wrapper">
+	            	    							<div class="breadcrumb"><span class="accesshide">Seitenpfad</span><nav><ul><li><a href="https://moodle.htw-berlin.de/my/">Meine Startseite</a></li><li> <span class="accesshide " ><span class="arrow_text">/</span>&nbsp;</span><span class="arrow sep">&#x25BA;</span> <a href="https://moodle.htw-berlin.de/my/">Meine Kurse</a></li></ul></nav></div>
+	    	        							</div>
+    	        							</div>
+        								
+            	            	    	<div role="main"><span id="maincontent"></span><a href="#sb-7" class="skip-block">Meine Kurse überspringen</a><div id="inst14" class="block_course_overview_campus  block" role="complementary" data-block="course_overview_campus" data-instanceid="14" aria-labelledby="instance-14-header"><div class="header"><div class="title"><div class="block_action"></div><h2 id="instance-14-header">Meine Kurse</h2></div></div><div class="content"><div id="coc-filterlist" class="row-fluid"><form method="post" action=""><div class="coc-filter span6">Semester<br /><select name="coc-term" id="coc-filterterm" class="input-block-level"><option value="all">Alle</option> <option selected value="2016-2">WiSe 2016/2017</option> <option value="2016-1">SoSe 2016</option> <option value="2015-2">WiSe 2015/2016</option> <option value="2015-1">SoSe 2015</option> <option value="2014-2">WiSe 2014/2015</option> <option value="2014-1">SoSe 2014</option> <option value="2013-2">WiSe 2013/2014</option> </select></div><div class="coc-filter span6">Dozent/in<br /><select name="coc-teacher" id="coc-filterteacher" class="input-block-level"><option value="all" selected>Alle</option> <option value="836">Baumeister, Sascha</option> <option value="12810">Becker, Frank</option> <option value="21554">Buhrtz, Tom</option> <option value="4724">Flügge, Martin</option> <option value="391">Fortenbacher, Albrecht</option> <option value="2819">Fröse, Diethelm</option> <option value="615">Herta, Christian</option> <option value="410">Heßling, Hermann</option> <option value="7605">Israel, Johann Habakuk</option> <option value="11267">Kappe, Leonard</option> <option value="225">Klein, Wolfgang</option> <option value="37477">Koschnick, David</option> <option value="495">Kosciolowicz, Raimund</option> <option value="4662">Kröger, Sophie</option> <option value="28786">Rehak, Rainer</option> <option value="26357">Rothe, Jens</option> <option value="27212">Salinger, Stephan</option> <option value="8737">Schmidt, Christin</option> <option value="5628">Schmidt, Peggy</option> <option value="445">Sieck, Jürgen</option> <option value="33">Werner, Torsten</option> </select></div></form></div><div id="coc-filtersubmit" class="row-fluid"><input type="submit" value="Filter meiner Kurse!" /></div><div id="coc-courselist" class="row-fluid"><div id="coc-course-8436" class="coc-course"><div class="termdiv coc-term-2015-2 coc-hidden"><div class="teacherdiv coc-teacher-836"><div class="box coursebox"><div class="hidecourseicon">
+                                <a href="https://moodle.htw-berlin.de/my/index.php?coc-manage=0&amp;coc-hidecourse=8436&amp;coc-showcourse" id="coc-hidecourse-8436" title="Kurs verbergen">
+                                    <img src="https://moodle.htw-berlin.de/theme/image.php/htw/core/1474719679/t/hide" class="icon" alt="Kurs verbergen" />
+                                </a>
+                                <a href="https://moodle.htw-berlin.de/my/index.php?coc-manage=0&amp;coc-hidecourse&amp;coc-showcourse=8436" id="coc-showcourse-8436" class="coc-hidden" title="Kurs anzeigen">
+                                    <img src="https://moodle.htw-berlin.de/theme/image.php/htw/core/1474719679/t/show" class="icon" alt="Kurs anzeigen" />
+                                </a>
+                            </div><h3><a title="AWE: Virtuelle Klangwelten Za WiSe2015" href="https://moodle.htw-berlin.de/course/view.php?id=8436">AWE: Virtuelle Klangwelten Za WiSe2015<br /><span class="coc-metainfo">(AWE VIRTKW-109758-Za  |  Sascha Baumeister)</span></a></h3></div></div></div></div><div id="coc-course-11133" class="coc-course"><div class="termdiv coc-term-2016-2"><div class="teacherdiv coc-teacher-4662"><div class="box coursebox"><div class="hidecourseicon">
+                                <a href="https://moodle.htw-berlin.de/my/index.php?coc-manage=0&amp;coc-hidecourse=11133&amp;coc-showcourse" id="coc-hidecourse-11133" title="Kurs verbergen">
+                                    <img src="https://moodle.htw-berlin.de/theme/image.php/htw/core/1474719679/t/hide" class="icon" alt="Kurs verbergen" />
+                                </a>
+                                <a href="https://moodle.htw-berlin.de/my/index.php?coc-manage=0&amp;coc-hidecourse&amp;coc-showcourse=11133" id="coc-showcourse-11133" class="coc-hidden" title="Kurs anzeigen">
+                                    <img src="https://moodle.htw-berlin.de/theme/image.php/htw/core/1474719679/t/show" class="icon" alt="Kurs anzeigen" />
+                                </a>
+                            </div><h3><a title="AWE Wissenschaftliches Arbeiten mit LaTeX  WiSe2016" href="https://moodle.htw-berlin.de/course/view.php?id=11133">AWE Wissenschaftliches Arbeiten mit LaTeX  WiSe2016<br /><span class="coc-metainfo">(AWE-WiArLa-116274-  |  Sophie Kröger)</span></a></h3></div></div></div></div><div id="coc-course-11107" class="coc-course"><div class="termdiv coc-term-2016-2"><div class="teacherdiv coc-teacher-225"><div class="box coursebox"><div class="hidecourseicon">
+                                <a href="https://moodle.htw-berlin.de/my/index.php?coc-manage=0&amp;coc-hidecourse=11107&amp;coc-showcourse" id="coc-hidecourse-11107" title="Kurs verbergen">
+                                    <img src="https://moodle.htw-berlin.de/theme/image.php/htw/core/1474719679/t/hide" class="icon" alt="Kurs verbergen" />
+                                </a>
+                                <a href="https://moodle.htw-berlin.de/my/index.php?coc-manage=0&amp;coc-hidecourse&amp;coc-showcourse=11107" id="coc-showcourse-11107" class="coc-hidden" title="Kurs anzeigen">
+                                    <img src="https://moodle.htw-berlin.de/theme/image.php/htw/core/1474719679/t/show" class="icon" alt="Kurs anzeigen" />
+                                </a>
+                            </div><h3><a title="AWE: Zeitmanagement Za, Zb WiSe2016" href="https://moodle.htw-berlin.de/course/view.php?id=11107">AWE: Zeitmanagement Za, Zb WiSe2016<br /><span class="coc-metainfo">(AWE ZTMAN-119620-Za,Zb  |  Wolfgang Klein)</span></a></h3></div></div></div></div><div id="coc-course-2324" class="coc-course"><div class="termdiv coc-term-2013-2 coc-hidden"><div class="teacherdiv coc-teacher-4724"><div class="box coursebox"><div class="hidecourseicon">
+                                <a href="https://moodle.htw-berlin.de/my/index.php?coc-manage=0&amp;coc-hidecourse=2324&amp;coc-showcourse" id="coc-hidecourse-2324" title="Kurs verbergen">
+                                    <img src="https://moodle.htw-berlin.de/theme/image.php/htw/core/1474719679/t/hide" class="icon" alt="Kurs verbergen" />
+                                </a>
+                                <a href="https://moodle.htw-berlin.de/my/index.php?coc-manage=0&amp;coc-hidecourse&amp;coc-showcourse=2324" id="coc-showcourse-2324" class="coc-hidden" title="Kurs anzeigen">
+                                    <img src="https://moodle.htw-berlin.de/theme/image.php/htw/core/1474719679/t/show" class="icon" alt="Kurs anzeigen" />
+                                </a>
+                            </div><h3><a title="B11.2 Theoretische Grundlagen der Informatik (Ü) Z1G1, Z1G2, Z2G1, Z2G2 WiSe2013" href="https://moodle.htw-berlin.de/course/view.php?id=2324">B11.2 Theoretische Grundlagen der Informatik (Ü) Z1G1, Z1G2, Z2G1, Z2G2 WiSe2013<br /><span class="coc-metainfo">(B11GrdlInf-Z1G1,Z1G2,Z2G1,Z2G2-85516  |  Martin Flügge)</span></a></h3></div></div></div></div><div id="coc-course-1558" class="coc-course"><div class="termdiv coc-term-2013-2 coc-hidden"><div class="teacherdiv coc-teacher-12810"><div class="box coursebox"><div class="hidecourseicon">
+                                <a href="https://moodle.htw-berlin.de/my/index.php?coc-manage=0&amp;coc-hidecourse=1558&amp;coc-showcourse" id="coc-hidecourse-1558" title="Kurs verbergen">
+                                    <img src="https://moodle.htw-berlin.de/theme/image.php/htw/core/1474719679/t/hide" class="icon" alt="Kurs verbergen" />
+                                </a>
+                                <a href="https://moodle.htw-berlin.de/my/index.php?coc-manage=0&amp;coc-hidecourse&amp;coc-showcourse=1558" id="coc-showcourse-1558" class="coc-hidden" title="Kurs anzeigen">
+                                    <img src="https://moodle.htw-berlin.de/theme/image.php/htw/core/1474719679/t/show" class="icon" alt="Kurs anzeigen" />
+                                </a>
+                            </div><h3><a title="B13.1 Programmierung 1 (SU) Z1 WiSe2013" href="https://moodle.htw-berlin.de/course/view.php?id=1558">B13.1 Programmierung 1 (SU) Z1 WiSe2013<br /><span class="coc-metainfo">(B13 Prog1-Z1-87639  |  Frank Becker)</span></a></h3></div></div></div></div><div id="coc-course-3119" class="coc-course"><div class="termdiv coc-term-2014-1 coc-hidden"><div class="teacherdiv coc-teacher-445"><div class="box coursebox"><div class="hidecourseicon">
+                                <a href="https://moodle.htw-berlin.de/my/index.php?coc-manage=0&amp;coc-hidecourse=3119&amp;coc-showcourse" id="coc-hidecourse-3119" title="Kurs verbergen">
+                                    <img src="https://moodle.htw-berlin.de/theme/image.php/htw/core/1474719679/t/hide" class="icon" alt="Kurs verbergen" />
+                                </a>
+                                <a href="https://moodle.htw-berlin.de/my/index.php?coc-manage=0&amp;coc-hidecourse&amp;coc-showcourse=3119" id="coc-showcourse-3119" class="coc-hidden" title="Kurs anzeigen">
+                                    <img src="https://moodle.htw-berlin.de/theme/image.php/htw/core/1474719679/t/show" class="icon" alt="Kurs anzeigen" />
+                                </a>
+                            </div><h3><a title="B21.1 Algorithmen und Datenstrukturen (SU) Z1, Z2 SoSe2014" href="https://moodle.htw-berlin.de/course/view.php?id=3119">B21.1 Algorithmen und Datenstrukturen (SU) Z1, Z2 SoSe2014<br /><span class="coc-metainfo">(B21.1 Alg-Z1,Z2-92303  |  Jürgen Sieck)</span></a></h3></div></div></div></div><div id="coc-course-3514" class="coc-course"><div class="termdiv coc-term-2014-1 coc-hidden"><div class="teacherdiv coc-teacher-21554"><div class="box coursebox"><div class="hidenewsicon">
+                                    <a href="https://moodle.htw-berlin.de/my/index.php?coc-manage=0&amp;coc-hidenews=3514&amp;coc-shownews" id="coc-hidenews-3514" title="Kursneuigkeiten verbergen">
+                                        <img src="https://moodle.htw-berlin.de/theme/image.php/htw/core/1474719679/t/expanded" alt="Kursneuigkeiten verbergen" />
+                                    </a>
+                                    <a href="https://moodle.htw-berlin.de/my/index.php?coc-manage=0&amp;coc-hidenews&amp;coc-shownews=3514" id="coc-shownews-3514" class="coc-hidden" title="Zeige Kursneuigkeiten">
+                                        <img src="https://moodle.htw-berlin.de/theme/image.php/htw/core/1474719679/t/collapsed" alt="Zeige Kursneuigkeiten" />
+                                    </a>
+                                </div><div class="hidecourseicon">
+                                <a href="https://moodle.htw-berlin.de/my/index.php?coc-manage=0&amp;coc-hidecourse=3514&amp;coc-showcourse" id="coc-hidecourse-3514" title="Kurs verbergen">
+                                    <img src="https://moodle.htw-berlin.de/theme/image.php/htw/core/1474719679/t/hide" class="icon" alt="Kurs verbergen" />
+                                </a>
+                                <a href="https://moodle.htw-berlin.de/my/index.php?coc-manage=0&amp;coc-hidecourse&amp;coc-showcourse=3514" id="coc-showcourse-3514" class="coc-hidden" title="Kurs anzeigen">
+                                    <img src="https://moodle.htw-berlin.de/theme/image.php/htw/core/1474719679/t/show" class="icon" alt="Kurs anzeigen" />
+                                </a>
+                            </div><h3><a title="B21.2 Algorithmen und Datenstrukturen (Ü) Z1G1, Z1G2, Z2G1, Z2G2 SoSe2014" href="https://moodle.htw-berlin.de/course/view.php?id=3514">B21.2 Algorithmen und Datenstrukturen (Ü) Z1G1, Z1G2, Z2G1, Z2G2 SoSe2014<br /><span class="coc-metainfo">(B21.2 Alg-Z1G1,Z1G2,Z2G1,Z2G2-92302  |  Tom Buhrtz)</span></a></h3><div id="coc-coursenews-3514" class="coc-coursenews"><div class="coc-module"><img class="iconlarge" alt="assign" title="assign" src="https://moodle.htw-berlin.de/theme/image.php/htw/mod_assign/1474719679/icon" /><div class="assign overview"><div class="name">Aufgabe: <a title="Aufgabe" href="https://moodle.htw-berlin.de/mod/assign/view.php?id=63994">Hochladen -  01. Aufgabenblatt - Listen, Sortierverfahren und Komplexitätsberechnung</a></div><div class="info">Fälligkeitsdatum: Monday, 14. July 2014, 23:55</div><div class="details">Meine Lösung:Zur Bewertung abgegeben, Bewertet</div></div><div class="assign overview"><div class="name">Aufgabe: <a title="Aufgabe" href="https://moodle.htw-berlin.de/mod/assign/view.php?id=63999">Hochladen - 02. Aufgabenblatt - Graphen, Listen, Stack</a></div><div class="info">Fälligkeitsdatum: Monday, 14. July 2014, 23:55</div><div class="details">Meine Lösung:Zur Bewertung abgegeben, Bewertet</div></div><div class="assign overview"><div class="name">Aufgabe: <a title="Aufgabe" href="https://moodle.htw-berlin.de/mod/assign/view.php?id=66892">Hochladen - 03. Aufgabenlatt  - Skylineproblem und Türme von Hanoi</a></div><div class="info">Fälligkeitsdatum: Monday, 14. July 2014, 23:55</div><div class="details">Meine Lösung:Noch nichts abgegeben, Nicht bewertet</div></div><div class="assign overview"><div class="name">Aufgabe: <a title="Aufgabe" href="https://moodle.htw-berlin.de/mod/assign/view.php?id=68701">Hochladen - 04. Aufgabenblatt - Hashverfahren</a></div><div class="info">Fälligkeitsdatum: Monday, 14. July 2014, 23:55</div><div class="details">Meine Lösung:Noch nichts abgegeben, Nicht bewertet</div></div><div class="assign overview"><div class="name">Aufgabe: <a title="Aufgabe" href="https://moodle.htw-berlin.de/mod/assign/view.php?id=69775">Hochladen - 05. Aufgabenblatt  - Kompressionsverfahren</a></div><div class="info">Fälligkeitsdatum: Monday, 14. July 2014, 23:55</div><div class="details">Meine Lösung:Noch nichts abgegeben, Nicht bewertet</div></div></div></div></div></div></div></div><div id="coc-course-3525" class="coc-course"><div class="termdiv coc-term-2014-1 coc-hidden"><div class="teacherdiv coc-teacher-410"><div class="box coursebox"><div class="hidecourseicon">
+                                <a href="https://moodle.htw-berlin.de/my/index.php?coc-manage=0&amp;coc-hidecourse=3525&amp;coc-showcourse" id="coc-hidecourse-3525" title="Kurs verbergen">
+                                    <img src="https://moodle.htw-berlin.de/theme/image.php/htw/core/1474719679/t/hide" class="icon" alt="Kurs verbergen" />
+                                </a>
+                                <a href="https://moodle.htw-berlin.de/my/index.php?coc-manage=0&amp;coc-hidecourse&amp;coc-showcourse=3525" id="coc-showcourse-3525" class="coc-hidden" title="Kurs anzeigen">
+                                    <img src="https://moodle.htw-berlin.de/theme/image.php/htw/core/1474719679/t/show" class="icon" alt="Kurs anzeigen" />
+                                </a>
+                            </div><h3><a title="B22.1 Betriebssysteme (SU) Z1, Z2 SoSe2014" href="https://moodle.htw-berlin.de/course/view.php?id=3525">B22.1 Betriebssysteme (SU) Z1, Z2 SoSe2014<br /><span class="coc-metainfo">(B22.1 BS-Z1,Z2-92416  |  Hermann Heßling)</span></a></h3></div></div></div></div><div id="coc-course-4885" class="coc-course"><div class="termdiv coc-term-2014-2 coc-hidden"><div class="teacherdiv coc-teacher-410"><div class="box coursebox"><div class="hidecourseicon">
+                                <a href="https://moodle.htw-berlin.de/my/index.php?coc-manage=0&amp;coc-hidecourse=4885&amp;coc-showcourse" id="coc-hidecourse-4885" title="Kurs verbergen">
+                                    <img src="https://moodle.htw-berlin.de/theme/image.php/htw/core/1474719679/t/hide" class="icon" alt="Kurs verbergen" />
+                                </a>
+                                <a href="https://moodle.htw-berlin.de/my/index.php?coc-manage=0&amp;coc-hidecourse&amp;coc-showcourse=4885" id="coc-showcourse-4885" class="coc-hidden" title="Kurs anzeigen">
+                                    <img src="https://moodle.htw-berlin.de/theme/image.php/htw/core/1474719679/t/show" class="icon" alt="Kurs anzeigen" />
+                                </a>
+                            </div><h3><a title="B22.1 Betriebssysteme (SU) Z1, Z2 WiSe2014" href="https://moodle.htw-berlin.de/course/view.php?id=4885">B22.1 Betriebssysteme (SU) Z1, Z2 WiSe2014<br /><span class="coc-metainfo">(B22.1 BS-96450-Z1,Z2  |  Hermann Heßling)</span></a></h3></div></div></div></div><div id="coc-course-2672" class="coc-course"><div class="termdiv coc-term-2014-1 coc-hidden"><div class="teacherdiv coc-teacher-495"><div class="box coursebox"><div class="hidecourseicon">
+                                <a href="https://moodle.htw-berlin.de/my/index.php?coc-manage=0&amp;coc-hidecourse=2672&amp;coc-showcourse" id="coc-hidecourse-2672" title="Kurs verbergen">
+                                    <img src="https://moodle.htw-berlin.de/theme/image.php/htw/core/1474719679/t/hide" class="icon" alt="Kurs verbergen" />
+                                </a>
+                                <a href="https://moodle.htw-berlin.de/my/index.php?coc-manage=0&amp;coc-hidecourse&amp;coc-showcourse=2672" id="coc-showcourse-2672" class="coc-hidden" title="Kurs anzeigen">
+                                    <img src="https://moodle.htw-berlin.de/theme/image.php/htw/core/1474719679/t/show" class="icon" alt="Kurs anzeigen" />
+                                </a>
+                            </div><h3><a title="B23.1 Programmierung 2 (SU) Z1 SoSe2014" href="https://moodle.htw-berlin.de/course/view.php?id=2672">B23.1 Programmierung 2 (SU) Z1 SoSe2014<br /><span class="coc-metainfo">(B23.1Prog2-Z1-92306  |  Raimund Kosciolowicz)</span></a></h3></div></div></div></div><div id="coc-course-4968" class="coc-course"><div class="termdiv coc-term-2014-2 coc-hidden"><div class="teacherdiv coc-teacher-2819"><div class="box coursebox"><div class="hidecourseicon">
+                                <a href="https://moodle.htw-berlin.de/my/index.php?coc-manage=0&amp;coc-hidecourse=4968&amp;coc-showcourse" id="coc-hidecourse-4968" title="Kurs verbergen">
+                                    <img src="https://moodle.htw-berlin.de/theme/image.php/htw/core/1474719679/t/hide" class="icon" alt="Kurs verbergen" />
+                                </a>
+                                <a href="https://moodle.htw-berlin.de/my/index.php?coc-manage=0&amp;coc-hidecourse&amp;coc-showcourse=4968" id="coc-showcourse-4968" class="coc-hidden" title="Kurs anzeigen">
+                                    <img src="https://moodle.htw-berlin.de/theme/image.php/htw/core/1474719679/t/show" class="icon" alt="Kurs anzeigen" />
+                                </a>
+                            </div><h3><a title="B24.1 Mathematik 2 (SU) Z2 WiSe2014" href="https://moodle.htw-berlin.de/course/view.php?id=4968">B24.1 Mathematik 2 (SU) Z2 WiSe2014<br /><span class="coc-metainfo">(B24.1 Ma2-96335-Z2  |  Diethelm Fröse)</span></a></h3></div></div></div></div><div id="coc-course-4969" class="coc-course"><div class="termdiv coc-term-2014-2 coc-hidden"><div class="teacherdiv coc-teacher-2819"><div class="box coursebox"><div class="hidecourseicon">
+                                <a href="https://moodle.htw-berlin.de/my/index.php?coc-manage=0&amp;coc-hidecourse=4969&amp;coc-showcourse" id="coc-hidecourse-4969" title="Kurs verbergen">
+                                    <img src="https://moodle.htw-berlin.de/theme/image.php/htw/core/1474719679/t/hide" class="icon" alt="Kurs verbergen" />
+                                </a>
+                                <a href="https://moodle.htw-berlin.de/my/index.php?coc-manage=0&amp;coc-hidecourse&amp;coc-showcourse=4969" id="coc-showcourse-4969" class="coc-hidden" title="Kurs anzeigen">
+                                    <img src="https://moodle.htw-berlin.de/theme/image.php/htw/core/1474719679/t/show" class="icon" alt="Kurs anzeigen" />
+                                </a>
+                            </div><h3><a title="B24.2 Mathematik 2 (Ü) Z2G2 WiSe2014" href="https://moodle.htw-berlin.de/course/view.php?id=4969">B24.2 Mathematik 2 (Ü) Z2G2 WiSe2014<br /><span class="coc-metainfo">(B24.2 Ma2-96325-Z2G2  |  Diethelm Fröse)</span></a></h3></div></div></div></div><div id="coc-course-2722" class="coc-course"><div class="termdiv coc-term-2014-1 coc-hidden"><div class="teacherdiv coc-teacher-33"><div class="box coursebox"><div class="hidecourseicon">
+                                <a href="https://moodle.htw-berlin.de/my/index.php?coc-manage=0&amp;coc-hidecourse=2722&amp;coc-showcourse" id="coc-hidecourse-2722" title="Kurs verbergen">
+                                    <img src="https://moodle.htw-berlin.de/theme/image.php/htw/core/1474719679/t/hide" class="icon" alt="Kurs verbergen" />
+                                </a>
+                                <a href="https://moodle.htw-berlin.de/my/index.php?coc-manage=0&amp;coc-hidecourse&amp;coc-showcourse=2722" id="coc-showcourse-2722" class="coc-hidden" title="Kurs anzeigen">
+                                    <img src="https://moodle.htw-berlin.de/theme/image.php/htw/core/1474719679/t/show" class="icon" alt="Kurs anzeigen" />
+                                </a>
+                            </div><h3><a title="B24 English for Applied Computing (M3Ts) Z1G2 SoSe2014" href="https://moodle.htw-berlin.de/course/view.php?id=2722">B24 English for Applied Computing (M3Ts) Z1G2 SoSe2014<br /><span class="coc-metainfo">(EnM3Ts-Z1G2-91390  |  Torsten Werner)</span></a></h3></div></div></div></div><div id="coc-course-2748" class="coc-course"><div class="termdiv coc-term-2014-1 coc-hidden"><div class="teacherdiv coc-teacher-5628"><div class="box coursebox"><div class="hidecourseicon">
+                                <a href="https://moodle.htw-berlin.de/my/index.php?coc-manage=0&amp;coc-hidecourse=2748&amp;coc-showcourse" id="coc-hidecourse-2748" title="Kurs verbergen">
+                                    <img src="https://moodle.htw-berlin.de/theme/image.php/htw/core/1474719679/t/hide" class="icon" alt="Kurs verbergen" />
+                                </a>
+                                <a href="https://moodle.htw-berlin.de/my/index.php?coc-manage=0&amp;coc-hidecourse&amp;coc-showcourse=2748" id="coc-showcourse-2748" class="coc-hidden" title="Kurs anzeigen">
+                                    <img src="https://moodle.htw-berlin.de/theme/image.php/htw/core/1474719679/t/show" class="icon" alt="Kurs anzeigen" />
+                                </a>
+                            </div><h3><a title="B25.1 Betriebswirtschaftslehre (SU) Z1 SoSe2014" href="https://moodle.htw-berlin.de/course/view.php?id=2748">B25.1 Betriebswirtschaftslehre (SU) Z1 SoSe2014<br /><span class="coc-metainfo">(B25.1 BWL-Z1-92298  |  Peggy Schmidt)</span></a></h3></div></div></div></div><div id="coc-course-2747" class="coc-course coc-hidden"><div class="termdiv coc-term-2014-1 coc-hidden"><div class="teacherdiv coc-teacher-5628"><div class="box coursebox"><div class="hidecourseicon">
+                                <a href="https://moodle.htw-berlin.de/my/index.php?coc-manage=0&amp;coc-hidecourse=2747&amp;coc-showcourse" id="coc-hidecourse-2747" class="coc-hidden" title="Kurs verbergen">
+                                    <img src="https://moodle.htw-berlin.de/theme/image.php/htw/core/1474719679/t/hide" class="icon" alt="Kurs verbergen" />
+                                </a>
+                                <a href="https://moodle.htw-berlin.de/my/index.php?coc-manage=0&amp;coc-hidecourse&amp;coc-showcourse=2747" id="coc-showcourse-2747" title="Kurs anzeigen">
+                                    <img src="https://moodle.htw-berlin.de/theme/image.php/htw/core/1474719679/t/show" class="icon" alt="Kurs anzeigen" />
+                                </a>
+                            </div><h3><a title="B25.2 Betriebswirtschaftslehre (Ü) Z1G1, Z1G2 SoSe2014" href="https://moodle.htw-berlin.de/course/view.php?id=2747">B25.2 Betriebswirtschaftslehre (Ü) Z1G1, Z1G2 SoSe2014<br /><span class="coc-metainfo">(B25.2 BWL-Z1G1,Z1G2-92296  |  Peggy Schmidt)</span></a></h3></div></div></div></div><div id="coc-course-5028" class="coc-course"><div class="termdiv coc-term-2014-2 coc-hidden"><div class="teacherdiv coc-teacher-26357"><div class="box coursebox"><div class="hidecourseicon">
+                                <a href="https://moodle.htw-berlin.de/my/index.php?coc-manage=0&amp;coc-hidecourse=5028&amp;coc-showcourse" id="coc-hidecourse-5028" title="Kurs verbergen">
+                                    <img src="https://moodle.htw-berlin.de/theme/image.php/htw/core/1474719679/t/hide" class="icon" alt="Kurs verbergen" />
+                                </a>
+                                <a href="https://moodle.htw-berlin.de/my/index.php?coc-manage=0&amp;coc-hidecourse&amp;coc-showcourse=5028" id="coc-showcourse-5028" class="coc-hidden" title="Kurs anzeigen">
+                                    <img src="https://moodle.htw-berlin.de/theme/image.php/htw/core/1474719679/t/show" class="icon" alt="Kurs anzeigen" />
+                                </a>
+                            </div><h3><a title="B32.1 Datenbanken (SU) Z2 WiSe2014" href="https://moodle.htw-berlin.de/course/view.php?id=5028">B32.1 Datenbanken (SU) Z2 WiSe2014<br /><span class="coc-metainfo">(B32.1 DB-96341-Z2  |  Jens Rothe)</span></a></h3></div></div></div></div><div id="coc-course-4478" class="coc-course"><div class="termdiv coc-term-2014-2 coc-hidden"><div class="teacherdiv coc-teacher-8737"><div class="box coursebox"><div class="hidecourseicon">
+                                <a href="https://moodle.htw-berlin.de/my/index.php?coc-manage=0&amp;coc-hidecourse=4478&amp;coc-showcourse" id="coc-hidecourse-4478" title="Kurs verbergen">
+                                    <img src="https://moodle.htw-berlin.de/theme/image.php/htw/core/1474719679/t/hide" class="icon" alt="Kurs verbergen" />
+                                </a>
+                                <a href="https://moodle.htw-berlin.de/my/index.php?coc-manage=0&amp;coc-hidecourse&amp;coc-showcourse=4478" id="coc-showcourse-4478" class="coc-hidden" title="Kurs anzeigen">
+                                    <img src="https://moodle.htw-berlin.de/theme/image.php/htw/core/1474719679/t/show" class="icon" alt="Kurs anzeigen" />
+                                </a>
+                            </div><h3><a title="B35.1 WT Grundlagen sozialer Netze (SU) Z3 WiSe2014" href="https://moodle.htw-berlin.de/course/view.php?id=4478">B35.1 WT Grundlagen sozialer Netze (SU) Z3 WiSe2014<br /><span class="coc-metainfo">(B35.1WTNet-96344-Z3  |  Christin Schmidt)</span></a></h3></div></div></div></div><div id="coc-course-7916" class="coc-course"><div class="termdiv coc-term-2015-2 coc-hidden"><div class="teacherdiv coc-teacher-7605"><div class="box coursebox"><div class="hidenewsicon">
+                                    <a href="https://moodle.htw-berlin.de/my/index.php?coc-manage=0&amp;coc-hidenews=7916&amp;coc-shownews" id="coc-hidenews-7916" title="Kursneuigkeiten verbergen">
+                                        <img src="https://moodle.htw-berlin.de/theme/image.php/htw/core/1474719679/t/expanded" alt="Kursneuigkeiten verbergen" />
+                                    </a>
+                                    <a href="https://moodle.htw-berlin.de/my/index.php?coc-manage=0&amp;coc-hidenews&amp;coc-shownews=7916" id="coc-shownews-7916" class="coc-hidden" title="Zeige Kursneuigkeiten">
+                                        <img src="https://moodle.htw-berlin.de/theme/image.php/htw/core/1474719679/t/collapsed" alt="Zeige Kursneuigkeiten" />
+                                    </a>
+                                </div><div class="hidecourseicon">
+                                <a href="https://moodle.htw-berlin.de/my/index.php?coc-manage=0&amp;coc-hidecourse=7916&amp;coc-showcourse" id="coc-hidecourse-7916" title="Kurs verbergen">
+                                    <img src="https://moodle.htw-berlin.de/theme/image.php/htw/core/1474719679/t/hide" class="icon" alt="Kurs verbergen" />
+                                </a>
+                                <a href="https://moodle.htw-berlin.de/my/index.php?coc-manage=0&amp;coc-hidecourse&amp;coc-showcourse=7916" id="coc-showcourse-7916" class="coc-hidden" title="Kurs anzeigen">
+                                    <img src="https://moodle.htw-berlin.de/theme/image.php/htw/core/1474719679/t/show" class="icon" alt="Kurs anzeigen" />
+                                </a>
+                            </div><h3><a title="B43.1 Computergrafik (SL) Z1, Z2 WiSe2015" href="https://moodle.htw-berlin.de/course/view.php?id=7916">B43.1 Computergrafik (SL) Z1, Z2 WiSe2015<br /><span class="coc-metainfo">(B43.1 (SL)-107936-Z1,Z2  |  Johann Habakuk Israel)</span></a></h3><div id="coc-coursenews-7916" class="coc-coursenews"><div class="coc-module"><img class="iconlarge" alt="forum" title="forum" src="https://moodle.htw-berlin.de/theme/image.php/htw/mod_forum/1474719679/icon" /><div class="overview forum"><div class="name">Forum: <a title="Forum" href="https://moodle.htw-berlin.de/mod/forum/view.php?f=12280">Kurs-Nachrichten</a></div><div class="info"><span class="postsincelogin">Beiträge seit dem letzten Besuch: 3</span></div></div></div></div></div></div></div></div><div id="coc-course-9553" class="coc-course"><div class="termdiv coc-term-2016-1 coc-hidden"><div class="teacherdiv coc-teacher-615"><div class="box coursebox"><div class="hidecourseicon">
+                                <a href="https://moodle.htw-berlin.de/my/index.php?coc-manage=0&amp;coc-hidecourse=9553&amp;coc-showcourse" id="coc-hidecourse-9553" title="Kurs verbergen">
+                                    <img src="https://moodle.htw-berlin.de/theme/image.php/htw/core/1474719679/t/hide" class="icon" alt="Kurs verbergen" />
+                                </a>
+                                <a href="https://moodle.htw-berlin.de/my/index.php?coc-manage=0&amp;coc-hidecourse&amp;coc-showcourse=9553" id="coc-showcourse-9553" class="coc-hidden" title="Kurs anzeigen">
+                                    <img src="https://moodle.htw-berlin.de/theme/image.php/htw/core/1474719679/t/show" class="icon" alt="Kurs anzeigen" />
+                                </a>
+                            </div><h3><a title="B45.1 WT Wissensrepräsentation (SL) Z3 SoSe2016" href="https://moodle.htw-berlin.de/course/view.php?id=9553">B45.1 WT Wissensrepräsentation (SL) Z3 SoSe2016<br /><span class="coc-metainfo">(B45 WT(SL)-114285-Z3  |  Christian Herta)</span></a></h3></div></div></div></div><div id="coc-course-10917" class="coc-course"><div class="termdiv coc-term-2016-2"><div class="teacherdiv coc-teacher-615"><div class="box coursebox"><div class="hidecourseicon">
+                                <a href="https://moodle.htw-berlin.de/my/index.php?coc-manage=0&amp;coc-hidecourse=10917&amp;coc-showcourse" id="coc-hidecourse-10917" title="Kurs verbergen">
+                                    <img src="https://moodle.htw-berlin.de/theme/image.php/htw/core/1474719679/t/hide" class="icon" alt="Kurs verbergen" />
+                                </a>
+                                <a href="https://moodle.htw-berlin.de/my/index.php?coc-manage=0&amp;coc-hidecourse&amp;coc-showcourse=10917" id="coc-showcourse-10917" class="coc-hidden" title="Kurs anzeigen">
+                                    <img src="https://moodle.htw-berlin.de/theme/image.php/htw/core/1474719679/t/show" class="icon" alt="Kurs anzeigen" />
+                                </a>
+                            </div><h3><a title="B45.1 WT Wissensrepräsentation (SL) Z3 WiSe2016" href="https://moodle.htw-berlin.de/course/view.php?id=10917">B45.1 WT Wissensrepräsentation (SL) Z3 WiSe2016<br /><span class="coc-metainfo">(B45 WT(SL)-120049-Z3  |  Christian Herta)</span></a></h3></div></div></div></div><div id="coc-course-6716" class="coc-course"><div class="termdiv coc-term-2015-1 coc-hidden"><div class="teacherdiv coc-teacher-27212"><div class="box coursebox"><div class="hidecourseicon">
+                                <a href="https://moodle.htw-berlin.de/my/index.php?coc-manage=0&amp;coc-hidecourse=6716&amp;coc-showcourse" id="coc-hidecourse-6716" title="Kurs verbergen">
+                                    <img src="https://moodle.htw-berlin.de/theme/image.php/htw/core/1474719679/t/hide" class="icon" alt="Kurs verbergen" />
+                                </a>
+                                <a href="https://moodle.htw-berlin.de/my/index.php?coc-manage=0&amp;coc-hidecourse&amp;coc-showcourse=6716" id="coc-showcourse-6716" class="coc-hidden" title="Kurs anzeigen">
+                                    <img src="https://moodle.htw-berlin.de/theme/image.php/htw/core/1474719679/t/show" class="icon" alt="Kurs anzeigen" />
+                                </a>
+                            </div><h3><a title="B46.1  Projektmanagement (SL) Z2 SoSe 2015" href="https://moodle.htw-berlin.de/course/view.php?id=6716">B46.1  Projektmanagement (SL) Z2 SoSe 2015<br /><span class="coc-metainfo">(B46.1 PM-20151-102922-10-1162511  |  Stephan Salinger)</span></a></h3></div></div></div></div><div id="coc-course-8226" class="coc-course"><div class="termdiv coc-term-2015-2 coc-hidden"><div class="teacherdiv coc-teacher-27212"><div class="box coursebox"><div class="hidecourseicon">
+                                <a href="https://moodle.htw-berlin.de/my/index.php?coc-manage=0&amp;coc-hidecourse=8226&amp;coc-showcourse" id="coc-hidecourse-8226" title="Kurs verbergen">
+                                    <img src="https://moodle.htw-berlin.de/theme/image.php/htw/core/1474719679/t/hide" class="icon" alt="Kurs verbergen" />
+                                </a>
+                                <a href="https://moodle.htw-berlin.de/my/index.php?coc-manage=0&amp;coc-hidecourse&amp;coc-showcourse=8226" id="coc-showcourse-8226" class="coc-hidden" title="Kurs anzeigen">
+                                    <img src="https://moodle.htw-berlin.de/theme/image.php/htw/core/1474719679/t/show" class="icon" alt="Kurs anzeigen" />
+                                </a>
+                            </div><h3><a title="B46.1  Projektmanagement (SL) Z2 WiSe2015" href="https://moodle.htw-berlin.de/course/view.php?id=8226">B46.1  Projektmanagement (SL) Z2 WiSe2015<br /><span class="coc-metainfo">(B46.1 PM-107949-Z2  |  Stephan Salinger)</span></a></h3></div></div></div></div><div id="coc-course-6717" class="coc-course"><div class="termdiv coc-term-2015-1 coc-hidden"><div class="teacherdiv coc-teacher-27212"><div class="box coursebox"><div class="hidecourseicon">
+                                <a href="https://moodle.htw-berlin.de/my/index.php?coc-manage=0&amp;coc-hidecourse=6717&amp;coc-showcourse" id="coc-hidecourse-6717" title="Kurs verbergen">
+                                    <img src="https://moodle.htw-berlin.de/theme/image.php/htw/core/1474719679/t/hide" class="icon" alt="Kurs verbergen" />
+                                </a>
+                                <a href="https://moodle.htw-berlin.de/my/index.php?coc-manage=0&amp;coc-hidecourse&amp;coc-showcourse=6717" id="coc-showcourse-6717" class="coc-hidden" title="Kurs anzeigen">
+                                    <img src="https://moodle.htw-berlin.de/theme/image.php/htw/core/1474719679/t/show" class="icon" alt="Kurs anzeigen" />
+                                </a>
+                            </div><h3><a title="B46.2 Projektmanagement (Ü) Z2G1 SoSe 2015" href="https://moodle.htw-berlin.de/course/view.php?id=6717">B46.2 Projektmanagement (Ü) Z2G1 SoSe 2015<br /><span class="coc-metainfo">(B46.2 PM-20151-102923-3-1162512  |  Stephan Salinger)</span></a></h3></div></div></div></div><div id="coc-course-8229" class="coc-course"><div class="termdiv coc-term-2015-2 coc-hidden"><div class="teacherdiv coc-teacher-27212"><div class="box coursebox"><div class="hidecourseicon">
+                                <a href="https://moodle.htw-berlin.de/my/index.php?coc-manage=0&amp;coc-hidecourse=8229&amp;coc-showcourse" id="coc-hidecourse-8229" title="Kurs verbergen">
+                                    <img src="https://moodle.htw-berlin.de/theme/image.php/htw/core/1474719679/t/hide" class="icon" alt="Kurs verbergen" />
+                                </a>
+                                <a href="https://moodle.htw-berlin.de/my/index.php?coc-manage=0&amp;coc-hidecourse&amp;coc-showcourse=8229" id="coc-showcourse-8229" class="coc-hidden" title="Kurs anzeigen">
+                                    <img src="https://moodle.htw-berlin.de/theme/image.php/htw/core/1474719679/t/show" class="icon" alt="Kurs anzeigen" />
+                                </a>
+                            </div><h3><a title="B46.2 Projektmanagement (Ü) Z2G2 WiSe2015" href="https://moodle.htw-berlin.de/course/view.php?id=8229">B46.2 Projektmanagement (Ü) Z2G2 WiSe2015<br /><span class="coc-metainfo">(B46.2 PM-107950-Z2G2  |  Stephan Salinger)</span></a></h3></div></div></div></div><div id="coc-course-8230" class="coc-course"><div class="termdiv coc-term-2015-2 coc-hidden"><div class="teacherdiv coc-teacher-27212"><div class="box coursebox"><div class="hidecourseicon">
+                                <a href="https://moodle.htw-berlin.de/my/index.php?coc-manage=0&amp;coc-hidecourse=8230&amp;coc-showcourse" id="coc-hidecourse-8230" title="Kurs verbergen">
+                                    <img src="https://moodle.htw-berlin.de/theme/image.php/htw/core/1474719679/t/hide" class="icon" alt="Kurs verbergen" />
+                                </a>
+                                <a href="https://moodle.htw-berlin.de/my/index.php?coc-manage=0&amp;coc-hidecourse&amp;coc-showcourse=8230" id="coc-showcourse-8230" class="coc-hidden" title="Kurs anzeigen">
+                                    <img src="https://moodle.htw-berlin.de/theme/image.php/htw/core/1474719679/t/show" class="icon" alt="Kurs anzeigen" />
+                                </a>
+                            </div><h3><a title="B51.1 Komponentenbasierte Entwicklung (SL) Z1, Z2 WiSe2015" href="https://moodle.htw-berlin.de/course/view.php?id=8230">B51.1 Komponentenbasierte Entwicklung (SL) Z1, Z2 WiSe2015<br /><span class="coc-metainfo">(KompEntw-108057-Z1,Z2  |  Stephan Salinger)</span></a></h3></div></div></div></div><div id="coc-course-8232" class="coc-course"><div class="termdiv coc-term-2015-2 coc-hidden"><div class="teacherdiv coc-teacher-27212"><div class="box coursebox"><div class="hidecourseicon">
+                                <a href="https://moodle.htw-berlin.de/my/index.php?coc-manage=0&amp;coc-hidecourse=8232&amp;coc-showcourse" id="coc-hidecourse-8232" title="Kurs verbergen">
+                                    <img src="https://moodle.htw-berlin.de/theme/image.php/htw/core/1474719679/t/hide" class="icon" alt="Kurs verbergen" />
+                                </a>
+                                <a href="https://moodle.htw-berlin.de/my/index.php?coc-manage=0&amp;coc-hidecourse&amp;coc-showcourse=8232" id="coc-showcourse-8232" class="coc-hidden" title="Kurs anzeigen">
+                                    <img src="https://moodle.htw-berlin.de/theme/image.php/htw/core/1474719679/t/show" class="icon" alt="Kurs anzeigen" />
+                                </a>
+                            </div><h3><a title="B51.2 Komponentenbasierte Entwicklung (Ü) Z1G1, Z1G2, Z2G1, Z2G2 WiSe2015" href="https://moodle.htw-berlin.de/course/view.php?id=8232">B51.2 Komponentenbasierte Entwicklung (Ü) Z1G1, Z1G2, Z2G1, Z2G2 WiSe2015<br /><span class="coc-metainfo">(KompEntw-108058-Z1G1,Z1G2,Z2G1,Z2G2  |  Stephan Salinger)</span></a></h3></div></div></div></div><div id="coc-course-10205" class="coc-course"><div class="termdiv coc-term-2016-1 coc-hidden"><div class="teacherdiv coc-teacher-391"><div class="box coursebox"><div class="hidecourseicon">
+                                <a href="https://moodle.htw-berlin.de/my/index.php?coc-manage=0&amp;coc-hidecourse=10205&amp;coc-showcourse" id="coc-hidecourse-10205" title="Kurs verbergen">
+                                    <img src="https://moodle.htw-berlin.de/theme/image.php/htw/core/1474719679/t/hide" class="icon" alt="Kurs verbergen" />
+                                </a>
+                                <a href="https://moodle.htw-berlin.de/my/index.php?coc-manage=0&amp;coc-hidecourse&amp;coc-showcourse=10205" id="coc-showcourse-10205" class="coc-hidden" title="Kurs anzeigen">
+                                    <img src="https://moodle.htw-berlin.de/theme/image.php/htw/core/1474719679/t/show" class="icon" alt="Kurs anzeigen" />
+                                </a>
+                            </div><h3><a title="B52.1 Datenschutz und Datensicherheit (SL) Z1 SoSe2016" href="https://moodle.htw-berlin.de/course/view.php?id=10205">B52.1 Datenschutz und Datensicherheit (SL) Z1 SoSe2016<br /><span class="coc-metainfo">(DatSich-114415-Z1  |  Albrecht Fortenbacher)</span></a></h3></div></div></div></div><div id="coc-course-7911" class="coc-course"><div class="termdiv coc-term-2015-2 coc-hidden"><div class="teacherdiv coc-teacher-391 coc-teacher-11267 coc-teacher-28786"><div class="box coursebox"><div class="hidenewsicon">
+                                    <a href="https://moodle.htw-berlin.de/my/index.php?coc-manage=0&amp;coc-hidenews=7911&amp;coc-shownews" id="coc-hidenews-7911" title="Kursneuigkeiten verbergen">
+                                        <img src="https://moodle.htw-berlin.de/theme/image.php/htw/core/1474719679/t/expanded" alt="Kursneuigkeiten verbergen" />
+                                    </a>
+                                    <a href="https://moodle.htw-berlin.de/my/index.php?coc-manage=0&amp;coc-hidenews&amp;coc-shownews=7911" id="coc-shownews-7911" class="coc-hidden" title="Zeige Kursneuigkeiten">
+                                        <img src="https://moodle.htw-berlin.de/theme/image.php/htw/core/1474719679/t/collapsed" alt="Zeige Kursneuigkeiten" />
+                                    </a>
+                                </div><div class="hidecourseicon">
+                                <a href="https://moodle.htw-berlin.de/my/index.php?coc-manage=0&amp;coc-hidecourse=7911&amp;coc-showcourse" id="coc-hidecourse-7911" title="Kurs verbergen">
+                                    <img src="https://moodle.htw-berlin.de/theme/image.php/htw/core/1474719679/t/hide" class="icon" alt="Kurs verbergen" />
+                                </a>
+                                <a href="https://moodle.htw-berlin.de/my/index.php?coc-manage=0&amp;coc-hidecourse&amp;coc-showcourse=7911" id="coc-showcourse-7911" class="coc-hidden" title="Kurs anzeigen">
+                                    <img src="https://moodle.htw-berlin.de/theme/image.php/htw/core/1474719679/t/show" class="icon" alt="Kurs anzeigen" />
+                                </a>
+                            </div><h3><a title="B52.1 Datenschutz und Datensicherheit (SL) Z1 WiSe2015" href="https://moodle.htw-berlin.de/course/view.php?id=7911">B52.1 Datenschutz und Datensicherheit (SL) Z1 WiSe2015<br /><span class="coc-metainfo">(DatSich-108062-Z1  |  Albrecht Fortenbacher, Leonard Kappe, Rainer Rehak)</span></a></h3><div id="coc-coursenews-7911" class="coc-coursenews"><div class="coc-module"><img class="iconlarge" alt="assign" title="assign" src="https://moodle.htw-berlin.de/theme/image.php/htw/mod_assign/1474719679/icon" /><div class="assign overview"><div class="name">Aufgabe: <a title="Aufgabe" href="https://moodle.htw-berlin.de/mod/assign/view.php?id=171914">Exercise 2 - Substitution Cipher</a></div><div class="info">Fälligkeitsdatum: Saturday, 13. February 2016, 23:55</div><div class="details">Meine Lösung:Zur Bewertung abgegeben, Nicht bewertet</div></div></div></div></div></div></div></div><div id="coc-course-10822" class="coc-course"><div class="termdiv coc-term-2016-2"><div class="teacherdiv coc-teacher-391 coc-teacher-37477"><div class="box coursebox"><div class="hidenewsicon">
+                                    <a href="https://moodle.htw-berlin.de/my/index.php?coc-manage=0&amp;coc-hidenews=10822&amp;coc-shownews" id="coc-hidenews-10822" title="Kursneuigkeiten verbergen">
+                                        <img src="https://moodle.htw-berlin.de/theme/image.php/htw/core/1474719679/t/expanded" alt="Kursneuigkeiten verbergen" />
+                                    </a>
+                                    <a href="https://moodle.htw-berlin.de/my/index.php?coc-manage=0&amp;coc-hidenews&amp;coc-shownews=10822" id="coc-shownews-10822" class="coc-hidden" title="Zeige Kursneuigkeiten">
+                                        <img src="https://moodle.htw-berlin.de/theme/image.php/htw/core/1474719679/t/collapsed" alt="Zeige Kursneuigkeiten" />
+                                    </a>
+                                </div><div class="hidecourseicon">
+                                <a href="https://moodle.htw-berlin.de/my/index.php?coc-manage=0&amp;coc-hidecourse=10822&amp;coc-showcourse" id="coc-hidecourse-10822" title="Kurs verbergen">
+                                    <img src="https://moodle.htw-berlin.de/theme/image.php/htw/core/1474719679/t/hide" class="icon" alt="Kurs verbergen" />
+                                </a>
+                                <a href="https://moodle.htw-berlin.de/my/index.php?coc-manage=0&amp;coc-hidecourse&amp;coc-showcourse=10822" id="coc-showcourse-10822" class="coc-hidden" title="Kurs anzeigen">
+                                    <img src="https://moodle.htw-berlin.de/theme/image.php/htw/core/1474719679/t/show" class="icon" alt="Kurs anzeigen" />
+                                </a>
+                            </div><h3><a title="B52.1 Datenschutz und Datensicherheit (SL) Z1 WiSe2016" href="https://moodle.htw-berlin.de/course/view.php?id=10822">B52.1 Datenschutz und Datensicherheit (SL) Z1 WiSe2016<br /><span class="coc-metainfo">(DatSich-120177-Z1  |  Albrecht Fortenbacher, David Koschnick)</span></a></h3><div id="coc-coursenews-10822" class="coc-coursenews"><div class="coc-module"><img class="iconlarge" alt="forum" title="forum" src="https://moodle.htw-berlin.de/theme/image.php/htw/mod_forum/1474719679/icon" /><div class="overview forum"><div class="name">Forum: <a title="Forum" href="https://moodle.htw-berlin.de/mod/forum/view.php?f=18810">Basics</a></div><div class="info"><span class="postsincelogin">Beiträge seit dem letzten Besuch: 3</span></div></div><div class="overview forum"><div class="name">Forum: <a title="Forum" href="https://moodle.htw-berlin.de/mod/forum/view.php?f=18818">Cryptography</a></div><div class="info"><span class="postsincelogin">Beiträge seit dem letzten Besuch: 17</span></div></div></div></div></div></div></div></div><div id="coc-course-10253" class="coc-course"><div class="termdiv coc-term-2016-1 coc-hidden"><div class="teacherdiv coc-teacher-11267"><div class="box coursebox"><div class="hidecourseicon">
+                                <a href="https://moodle.htw-berlin.de/my/index.php?coc-manage=0&amp;coc-hidecourse=10253&amp;coc-showcourse" id="coc-hidecourse-10253" title="Kurs verbergen">
+                                    <img src="https://moodle.htw-berlin.de/theme/image.php/htw/core/1474719679/t/hide" class="icon" alt="Kurs verbergen" />
+                                </a>
+                                <a href="https://moodle.htw-berlin.de/my/index.php?coc-manage=0&amp;coc-hidecourse&amp;coc-showcourse=10253" id="coc-showcourse-10253" class="coc-hidden" title="Kurs anzeigen">
+                                    <img src="https://moodle.htw-berlin.de/theme/image.php/htw/core/1474719679/t/show" class="icon" alt="Kurs anzeigen" />
+                                </a>
+                            </div><h3><a title="B52.2 Datenschutz und Datensicherheit (Ü) Z1G1 SoSe2016" href="https://moodle.htw-berlin.de/course/view.php?id=10253">B52.2 Datenschutz und Datensicherheit (Ü) Z1G1 SoSe2016<br /><span class="coc-metainfo">(DatSich-114214-Z1G1  |  Leonard Kappe)</span></a></h3></div></div></div></div><div id="coc-course-11913" class="coc-course"><div class="termdiv coc-term-2016-2"><div class="teacherdiv coc-teacher-37477"><div class="box coursebox"><div class="hidecourseicon">
+                                <a href="https://moodle.htw-berlin.de/my/index.php?coc-manage=0&amp;coc-hidecourse=11913&amp;coc-showcourse" id="coc-hidecourse-11913" title="Kurs verbergen">
+                                    <img src="https://moodle.htw-berlin.de/theme/image.php/htw/core/1474719679/t/hide" class="icon" alt="Kurs verbergen" />
+                                </a>
+                                <a href="https://moodle.htw-berlin.de/my/index.php?coc-manage=0&amp;coc-hidecourse&amp;coc-showcourse=11913" id="coc-showcourse-11913" class="coc-hidden" title="Kurs anzeigen">
+                                    <img src="https://moodle.htw-berlin.de/theme/image.php/htw/core/1474719679/t/show" class="icon" alt="Kurs anzeigen" />
+                                </a>
+                            </div><h3><a title="B52.2 Datenschutz und Datensicherheit (Ü) Z1G1 WiSe2016" href="https://moodle.htw-berlin.de/course/view.php?id=11913">B52.2 Datenschutz und Datensicherheit (Ü) Z1G1 WiSe2016<br /><span class="coc-metainfo">(DatSich-119989-Z1G1  |  David Koschnick)</span></a></h3></div></div></div></div><div id="coc-course-9551" class="coc-course"><div class="termdiv coc-term-2016-1 coc-hidden"><div class="teacherdiv coc-teacher-615"><div class="box coursebox"><div class="hidecourseicon">
+                                <a href="https://moodle.htw-berlin.de/my/index.php?coc-manage=0&amp;coc-hidecourse=9551&amp;coc-showcourse" id="coc-hidecourse-9551" title="Kurs verbergen">
+                                    <img src="https://moodle.htw-berlin.de/theme/image.php/htw/core/1474719679/t/hide" class="icon" alt="Kurs verbergen" />
+                                </a>
+                                <a href="https://moodle.htw-berlin.de/my/index.php?coc-manage=0&amp;coc-hidecourse&amp;coc-showcourse=9551" id="coc-showcourse-9551" class="coc-hidden" title="Kurs anzeigen">
+                                    <img src="https://moodle.htw-berlin.de/theme/image.php/htw/core/1474719679/t/show" class="icon" alt="Kurs anzeigen" />
+                                </a>
+                            </div><h3><a title="B55.1 WT Ausgewählte Kapitel sozialer Webtechnologien (SL) Z3 SoSe2016" href="https://moodle.htw-berlin.de/course/view.php?id=9551">B55.1 WT Ausgewählte Kapitel sozialer Webtechnologien (SL) Z3 SoSe2016<br /><span class="coc-metainfo">(AK WebTech-113671-Z3  |  Christian Herta)</span></a></h3></div></div></div></div><div id="coc-course-10919" class="coc-course"><div class="termdiv coc-term-2016-2"><div class="teacherdiv coc-teacher-615"><div class="box coursebox"><div class="hidecourseicon">
+                                <a href="https://moodle.htw-berlin.de/my/index.php?coc-manage=0&amp;coc-hidecourse=10919&amp;coc-showcourse" id="coc-hidecourse-10919" title="Kurs verbergen">
+                                    <img src="https://moodle.htw-berlin.de/theme/image.php/htw/core/1474719679/t/hide" class="icon" alt="Kurs verbergen" />
+                                </a>
+                                <a href="https://moodle.htw-berlin.de/my/index.php?coc-manage=0&amp;coc-hidecourse&amp;coc-showcourse=10919" id="coc-showcourse-10919" class="coc-hidden" title="Kurs anzeigen">
+                                    <img src="https://moodle.htw-berlin.de/theme/image.php/htw/core/1474719679/t/show" class="icon" alt="Kurs anzeigen" />
+                                </a>
+                            </div><h3><a title="B55.1 WT Ausgewählte Kapitel sozialer Webtechnologien (SL) Z3 WiSe2016" href="https://moodle.htw-berlin.de/course/view.php?id=10919">B55.1 WT Ausgewählte Kapitel sozialer Webtechnologien (SL) Z3 WiSe2016<br /><span class="coc-metainfo">(AK WebTech-119523-Z3  |  Christian Herta)</span></a></h3></div></div></div></div><div id="coc-course-2365" class="coc-course"><div class="termdiv coc-term-2013-2 coc-hidden"><div class="teacherdiv coc-teacher-33"><div class="box coursebox"><div class="hidecourseicon">
+                                <a href="https://moodle.htw-berlin.de/my/index.php?coc-manage=0&amp;coc-hidecourse=2365&amp;coc-showcourse" id="coc-hidecourse-2365" title="Kurs verbergen">
+                                    <img src="https://moodle.htw-berlin.de/theme/image.php/htw/core/1474719679/t/hide" class="icon" alt="Kurs verbergen" />
+                                </a>
+                                <a href="https://moodle.htw-berlin.de/my/index.php?coc-manage=0&amp;coc-hidecourse&amp;coc-showcourse=2365" id="coc-showcourse-2365" class="coc-hidden" title="Kurs anzeigen">
+                                    <img src="https://moodle.htw-berlin.de/theme/image.php/htw/core/1474719679/t/show" class="icon" alt="Kurs anzeigen" />
+                                </a>
+                            </div><h3><a title="English for Applied Computing (M2Ts) Z1G2 WiSe2013" href="https://moodle.htw-berlin.de/course/view.php?id=2365">English for Applied Computing (M2Ts) Z1G2 WiSe2013<br /><span class="coc-metainfo">(EnM2Ts-Z1G2-86353  |  Torsten Werner)</span></a></h3></div></div></div></div></div><div id="coc-hiddencoursesmanagement-bottom" class="row-fluid">Sie haben <span id="coc-hiddencoursescount">1</span> verborgene/n Kurs/e | <a href="https://moodle.htw-berlin.de/my/index.php?coc-manage=1">Verborgene Kurse verwalten</a></div></div></div><span id="sb-7" class="skip-block-to"></span><a href="#sb-8" class="skip-block">Aktuelle Termine überspringen</a><div id="inst15" class="block_calendar_upcoming  block" role="complementary" data-block="calendar_upcoming" data-instanceid="15" aria-labelledby="instance-15-header"><div class="header"><div class="title"><div class="block_action"></div><h2 id="instance-15-header">Aktuelle Termine</h2></div></div><div class="content"><div class="post">Keine weiteren Termine</div><div class="footer"><div class="gotocal"><a href="https://moodle.htw-berlin.de/calendar/view.php?view=upcoming&amp;course=1">Zum Kalender</a>...</div><div class="newevent"><a href="https://moodle.htw-berlin.de/calendar/event.php?action=new&amp;course=1">Neuer Termin</a>...</div></div></div></div><span id="sb-8" class="skip-block-to"></span></div>
+	                	        	</div>
+    	                		</div>
+	    	            	</div>
+
+		                	
+    		            	<div id="region-post" class="block-region">
+        		            	<div class="region-content">
+
+        		             		
+            		            	<a href="#sb-2" class="skip-block">Einstellungen überspringen</a><div id="inst5" class="block_settings  block" role="navigation" data-block="settings" data-instanceid="5" aria-labelledby="instance-5-header"><div class="header"><div class="title"><div class="block_action"></div><h2 id="instance-5-header">Einstellungen</h2></div></div><div class="content"><div id="settingsnav" class="box block_tree_box"><ul class="block_tree list"><li class="type_unknown collapsed contains_branch" aria-expanded="false"><p class="tree_item branch root_node" id="usersettings"><span tabindex="0">Profileinstellungen</span></p><ul><li class="type_setting collapsed item_with_icon"><p class="tree_item leaf"><a href="https://moodle.htw-berlin.de/user/edit.php?id=18619&amp;course=1"><img alt="" class="smallicon navicon" title="" src="https://moodle.htw-berlin.de/theme/image.php/htw/core/1474719679/i/navigationitem" />Profil bearbeiten</a></p></li>
+<li class="type_setting collapsed item_with_icon"><p class="tree_item leaf"><a href="https://moodle.htw-berlin.de/user/managetoken.php?sesskey=EnC7OmxcWr"><img alt="" class="smallicon navicon" title="" src="https://moodle.htw-berlin.de/theme/image.php/htw/core/1474719679/i/navigationitem" />Sicherheitsschlüssel</a></p></li>
+<li class="type_setting collapsed item_with_icon"><p class="tree_item leaf"><a href="https://moodle.htw-berlin.de/message/edit.php?id=18619"><img alt="" class="smallicon navicon" title="" src="https://moodle.htw-berlin.de/theme/image.php/htw/core/1474719679/i/navigationitem" />Mitteilungen</a></p></li>
+<li class="type_unknown collapsed contains_branch" aria-expanded="false"><p class="tree_item branch"><span tabindex="0">Blogs</span></p><ul><li class="type_setting collapsed item_with_icon"><p class="tree_item leaf"><a href="https://moodle.htw-berlin.de/blog/preferences.php"><img alt="" class="smallicon navicon" title="" src="https://moodle.htw-berlin.de/theme/image.php/htw/core/1474719679/i/navigationitem" />Einstellungen</a></p></li>
+<li class="type_setting collapsed item_with_icon"><p class="tree_item leaf"><a href="https://moodle.htw-berlin.de/blog/external_blogs.php"><img alt="" class="smallicon navicon" title="" src="https://moodle.htw-berlin.de/theme/image.php/htw/core/1474719679/i/navigationitem" />Externe Blogs</a></p></li>
+<li class="type_setting collapsed item_with_icon"><p class="tree_item leaf"><a href="https://moodle.htw-berlin.de/blog/external_blog_edit.php"><img alt="" class="smallicon navicon" title="" src="https://moodle.htw-berlin.de/theme/image.php/htw/core/1474719679/i/navigationitem" />Externen Blog registrieren</a></p></li></ul></li>
+<li class="type_unknown collapsed contains_branch" aria-expanded="false"><p class="tree_item branch"><span tabindex="0">Auszeichnungen</span></p><ul><li class="type_setting collapsed item_with_icon"><p class="tree_item leaf"><a href="https://moodle.htw-berlin.de/badges/preferences.php"><img alt="" class="smallicon navicon" title="" src="https://moodle.htw-berlin.de/theme/image.php/htw/core/1474719679/i/navigationitem" />Einstellungen</a></p></li>
+<li class="type_setting collapsed item_with_icon"><p class="tree_item leaf"><a href="https://moodle.htw-berlin.de/badges/mybackpack.php"><img alt="" class="smallicon navicon" title="" src="https://moodle.htw-berlin.de/theme/image.php/htw/core/1474719679/i/navigationitem" />Backpack-Einstellungen</a></p></li></ul></li></ul></li></ul></div></div></div><span id="sb-2" class="skip-block-to"></span><a href="#sb-3" class="skip-block">Wichtige Links überspringen</a><div id="inst251" class="block_html  block" role="complementary" data-block="html" data-instanceid="251" aria-labelledby="instance-251-header"><div class="header"><div class="title"><div class="block_action"></div><h2 id="instance-251-header">Wichtige Links</h2></div></div><div class="content"><div class="no-overflow"><ul>
+<li><a title="Alle Fachbereiche und Kurse" href="https://moodle.htw-berlin.de/course/">Alle Fachbereiche und Kurse</a></li>
+<li><a target="_blank" title="Datenschutzerklärung der HTW Berlin zu Moodle-Nutzung" href="https://moodle.htw-berlin.de/datenschutzerklaerung_moodle_htw-berlin.html">Datenschutzerklärung</a></li>
+<li><a target="_blank" title="Moodle-Tutorials (Videos und PDF)" href="https://moodle.htw-berlin.de/course/view.php?id=25">Moodle-Tutorials (Videos &amp; PDF)</a></li>
+</ul></div></div></div><span id="sb-3" class="skip-block-to"></span><a href="#sb-4" class="skip-block">Mitteilungen überspringen</a><div id="inst11284" class="block_messages  block" role="complementary" data-block="messages" data-instanceid="11284" aria-labelledby="instance-11284-header"><div class="header"><div class="title"><div class="block_action"></div><h2 id="instance-11284-header">Mitteilungen</h2></div></div><div class="content"><div class="info">Es liegen keine neuen Mitteilungen vor</div><div class="footer"><a href="https://moodle.htw-berlin.de/message/index.php">Mitteilungen</a></div></div></div><span id="sb-4" class="skip-block-to"></span><a href="#sb-5" class="skip-block">Moodle-Support überspringen</a><div id="inst18" class="block_html  block" role="complementary" data-block="html" data-instanceid="18" aria-labelledby="instance-18-header"><div class="header"><div class="title"><div class="block_action"></div><h2 id="instance-18-header">Moodle-Support</h2></div></div><div class="content"><div class="no-overflow"><div id="yui_3_9_1_2_1375878616628_207" class="title"><strong>Sprechzeiten<br /></strong></div>
+<div class="title"><strong></strong></div>
+<table border="0" cellspacing="0">
+<tbody>
+<tr>
+<td style="text-align: left;">Mo</td>
+<td>09:00 - 13:00</td>
+<td>TGS Haus 9</td>
+</tr>
+<tr>
+<td style="text-align: left;">Do</td>
+<td>09:00 - 13:00</td>
+<td>TGS Haus 9</td>
+</tr>
+<tr>
+<td style="text-align: left;">Do</td>
+<td>15:30 - 17:30</td>
+<td>TGS Haus 9</td>
+</tr>
+</tbody>
+</table>
+<p></p>
+<hr style="width: 100%; color: #ecebed; background-color: #ecebed; height: 4px; margin-right: 5; text-align: center; border: 1px solid #dadada;" />
+<table border="0">
+<tbody>
+<tr>
+<td><img src="https://moodle.htw-berlin.de/theme/image.php/htw/theme/1377001514/anrufen" alt="Telefonnummer des Moodle-Supports" height="30" width="30" /></td>
+<td>030 5019-4328</td>
+</tr>
+<tr>
+<td><img src="https://moodle.htw-berlin.de/theme/image.php/htw/theme/1377001514/email" alt="E-Mail an Moodle-Support" height="30" width="30" /></td>
+<td><a title="eine eMail an den Support schreiben" href="mailto:moodle-support@htw-berlin.de"><span style="font-size: small;" data-mce-mark="1"><span style="font-size: small;" data-mce-mark="1">eMail schreiben</span></span></a></td>
+</tr>
+</tbody>
+</table>
+<p></p>
+<hr style="width: 100%; color: #ecebed; background-color: #ecebed; height: 4px; margin-right: 5; text-align: center; border: 1px solid #dadada;" />
+<p style="text-align: center;"><span style="font-size: small;"><a target="_blank" title="Moodle-Tutorials (Videos und PDF)" href="https://moodle.htw-berlin.de/course/view.php?id=25">Moodle-Tutorials (Videos &amp; PDF)</a></span></p></div></div></div><span id="sb-5" class="skip-block-to"></span><a href="#sb-6" class="skip-block">Neue Nachrichten überspringen</a><div id="inst33093" class="block_news_items  block" role="complementary" data-block="news_items" data-instanceid="33093" aria-labelledby="instance-33093-header"><div class="header"><div class="title"><div class="block_action"></div><h2 id="instance-33093-header">Neue Nachrichten</h2></div></div><div class="content">
+<ul class='unlist'>
+<li class="post"><div class="head clearfix"><div class="date">11. Oct, 10:17</div><div class="name">Sebastian Homer</div></div><div class="info"><a href="https://moodle.htw-berlin.de/mod/forum/discuss.php?d=37232">Wartungsarbeiten am Montag, 24.10.2016 zwischen 08:00 und 09:00 Uhr</a></div></li>
+<li class="post"><div class="head clearfix"><div class="date">29. Sep, 14:34</div><div class="name">Sebastian Homer</div></div><div class="info"><a href="https://moodle.htw-berlin.de/mod/forum/discuss.php?d=36935">Nachrichtenversand aus Moodle gestört</a></div></li>
+<li class="post"><div class="head clearfix"><div class="date">24. Sep, 14:29</div><div class="name">Sebastian Homer</div></div><div class="info"><a href="https://moodle.htw-berlin.de/mod/forum/discuss.php?d=36779">Semesterumstellung vollzogen - Anlegen von Kursen ist jetzt möglich</a></div></li>
+</ul>
+<div class="footer"><a href="https://moodle.htw-berlin.de/mod/forum/view.php?f=2">Ältere Themen</a> ...</div></div></div><span id="sb-6" class="skip-block-to"></span>
+                		    	</div>
+	                		</div>
+
+	    	            	
+    	    	    	</div>
+	    	    	</div>
+	    		</div>
+    		</div>
+
+<!-- END OF CONTENT -->
+
+
+		</div>
+	</div>
+</div>
+
+<!-- START OF FOOTER -->
+
+	<div id="page-footer" class="wrapper">
+		<p class="helplink"></p>
+		<div class="logininfo">Sie sind angemeldet als <a href="https://moodle.htw-berlin.de/user/profile.php?id=18619" title="Profil anzeigen">Yves Kaufmann</a> (<a href="https://moodle.htw-berlin.de/login/logout.php?sesskey=EnC7OmxcWr">Logout</a>)</div><div class="homelink"><a href="https://moodle.htw-berlin.de/">Startseite</a></div>	</div>
+
+<div style="text-align:center;font-size:0.9em">
+
+    <a href="https://moodle.htw-berlin.de/datenschutzerklaerung_moodle_htw-berlin.html" title="Datenschutzerklärung">Datenschutzerklärung</a>
+
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+M.str = {"moodle":{"lastmodified":"Zuletzt ge\u00e4ndert","name":"Name","error":"Fehler","info":"Informationen","morehelp":"Weitere Hilfe","loadinghelp":"Wird geladen...","cancel":"Abbrechen","yes":"Ja","confirm":"Best\u00e4tigen","no":"Nein","areyousure":"Sind Sie sicher?","closebuttontitle":"Schlie\u00dfen","unknownerror":"Unbekannter Fehler"},"repository":{"type":"Typ","size":"Gr\u00f6\u00dfe","invalidjson":"Ung\u00fcltiger JSON-Text","nofilesattached":"Keine Datei","filepicker":"Dateiauswahl","logout":"Abmelden","nofilesavailable":"Keine Dateien vorhanden","norepositoriesavailable":"Keine Ihrer aktuellen Repositories kann Dateien im n\u00f6tigen Format liefern","fileexistsdialogheader":"Datei bereits vorhanden","fileexistsdialog_editor":"Eine Datei mit diesem Namen wurde bereits an den Text angeh\u00e4ngt, den Sie gerade bearbeiten","fileexistsdialog_filemanager":"Eine Datei mit diesem Namen wurde bereits an den Text angeh\u00e4ngt","renameto":"Nach '{$a}' umbenennen","referencesexist":"{$a} Aliase\/Verkn\u00fcpfungen zu dieser Datei","select":"W\u00e4hlen Sie"},"admin":{"confirmation":"Best\u00e4tigung"}};
+//]]>
+</script>
+<script type="text/javascript">
+//<![CDATA[
+YUI().use('node', function(Y) {
+M.util.load_flowplayer();
+setTimeout("fix_column_widths()", 20);
+Y.use("moodle-block_navigation-navigation",function() {M.block_navigation.init_add_tree({"id":"5","instance":"5","candock":false});
+});
+Y.use("moodle-filter_mathjaxloader-loader",function() {M.filter_mathjaxloader.configure({"mathjaxconfig":"\nMathJax.Hub.Config({\n    config: [\"Accessible.js\", \"Safe.js\"],\n    errorSettings: { message: [\"!\"] },\n    skipStartupTypeset: true,\n    messageStyle: \"none\"\n});\n","lang":"de"});
+});
+Y.use("moodle-block_course_overview_campus-hidecourse",function() {M.block_course_overview_campus.initHideCourse({"courses":"8436 11133 11107 2324 1558 3119 3514 3525 4885 2672 4968 4969 2722 2748 2747 5028 4478 7916 9553 10917 6716 8226 6717 8229 8230 8232 10205 7911 10822 10253 11913 9551 10919 2365","editing":0});
+});
+Y.use("moodle-block_course_overview_campus-hidenews",function() {M.block_course_overview_campus.initHideNews({"courses":"3514 7916 7911 10822"});
+});
+Y.use("moodle-block_course_overview_campus-filter",function() {M.block_course_overview_campus.initFilter();
+});
+M.util.help_popups.setup(Y);
+Y.use("moodle-core-popuphelp",function() {M.core.init_popuphelp();
+});
+Y.use("moodle-core-formautosubmit",function() {M.core.init_formautosubmit({"selectid":"single_select58040d6c7df753","nothing":false});
+});
+M.util.init_block_hider(Y, {"id":"inst5","title":"Einstellungen","preference":"block5hidden","tooltipVisible":"Block Einstellungen verbergen","tooltipHidden":"Block Einstellungen anzeigen"});
+M.util.init_block_hider(Y, {"id":"inst251","title":"Wichtige Links","preference":"block251hidden","tooltipVisible":"Block Wichtige Links verbergen","tooltipHidden":"Block Wichtige Links anzeigen"});
+M.util.init_block_hider(Y, {"id":"inst11284","title":"Mitteilungen","preference":"block11284hidden","tooltipVisible":"Block Mitteilungen verbergen","tooltipHidden":"Block Mitteilungen anzeigen"});
+M.util.init_block_hider(Y, {"id":"inst18","title":"Moodle-Support","preference":"block18hidden","tooltipVisible":"Block Moodle-Support verbergen","tooltipHidden":"Block Moodle-Support anzeigen"});
+M.util.init_block_hider(Y, {"id":"inst33093","title":"Neue Nachrichten","preference":"block33093hidden","tooltipVisible":"Block Neue Nachrichten verbergen","tooltipHidden":"Block Neue Nachrichten anzeigen"});
+M.util.init_block_hider(Y, {"id":"inst14","title":"Meine Kurse","preference":"block14hidden","tooltipVisible":"Block Meine Kurse verbergen","tooltipHidden":"Block Meine Kurse anzeigen"});
+M.util.init_block_hider(Y, {"id":"inst15","title":"Aktuelle Termine","preference":"block15hidden","tooltipVisible":"Block Aktuelle Termine verbergen","tooltipHidden":"Block Aktuelle Termine anzeigen"});
+ M.util.js_pending('random58040d6c7df7511'); Y.on('domready', function() { M.util.js_complete("init");  M.util.js_complete('random58040d6c7df7511'); });
+
+});
+//]]>
+</script>
+</body>
+</html>
