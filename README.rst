@@ -1,23 +1,27 @@
 Moodle-Cli
-==========
+===========
 
 This program downloads all your course files from https://moodle.htw-berlin.de/
 
-Installtion
-===========
+Installation
+------------
 
-```zsh
-python3 setup.py install
-```
+To install moodle_cli, simpy call:
+
+.. code-block:: bash
+		
+		$ python3 setup.py install
+
 
 Usage
-=====
+-----
 
-Downloads all your files into a directory of your desire.
+To Downloads all your files into a directory of your choice, call:
 
-```zsh
-moodle_cli ~/moodle_downloads
-```
+.. code-block:: bash
+		
+		$ moodle_cli ~/moodle_downloads
+
 
 
 
