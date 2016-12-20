@@ -6,7 +6,6 @@ import os.path
 import pickle
 import re
 import requests
-import requests_cache
 import time
 
 from getpass import getpass
