@@ -10,6 +10,7 @@ To install moodle_cli, simpy call:
 
 .. code-block:: bash
 		
+		$ cd moodle_cli
 		$ python3 setup.py install
 
 
