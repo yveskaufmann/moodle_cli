@@ -10,7 +10,7 @@ import requests_cache
 import time
 
 from getpass import getpass
-from urllib.parse import urlparse 
+from urllib.parse import urlparse, urljoin 
 
 from moodle_cli.constants import *
 from moodle_cli.extractors.extractors import Extractors 
@@ -22,11 +22,9 @@ from moodle_cli import logger
 
 class MoodleCourseDownloader:
 
-	COURSE_PAGE = 'https://moodle.htw-berlin.de/my/'
-	BASE_PAGE = 'https://moodle.htw-berlin.de/course/view.php?id={id}'
-
-	def __init__(self, save_dir, keep_old_files=True):
+	def __init__(self, save_dir, base_url, keep_old_files=True):
 		self._keep_old_files = keep_old_files
+		self.base_url = base_url
 		self.base_dir = save_dir
 		self._session = requests.Session()
 		self.load_cookies()
@@ -51,15 +49,19 @@ class MoodleCourseDownloader:
 		self._session.close()
 	
 	def extract_course_pages(self):
-		logger.info('Loading moodle courses')
-		r = self._session.get(self.COURSE_PAGE)
+		r = self._session.get(urljoin(self.base_url, '/my'))
 		
 		if r.status_code != 200:
 			raise ConnectionError('Failed to obtain your moodle course pages')
 		r = self._handle_login(r)
 		
+		print('Loading moodle courses ...', end=' ')
+		
 		soup = bs4.BeautifulSoup(r.text, 'html.parser')
-		return [ (course_a['title'], course_a['href']) for course_a in soup.select('.coc-course h3 a')]
+		courses = [ (course_a['title'], course_a['href']) for course_a in soup.select('.coc-course h3 a')]
+		
+		print('Done', end='\n\n')
+		return courses
 
 	def extract_and_download(self, courses):
 
@@ -228,6 +230,9 @@ class MoodleCourseDownloader:
 			progress.end()			
 		logger.debug('Finish downloading: %s', url)
 
+	def _is_login_url(self, r):
+			return r.url.endswith('login/index.php')
+
 	def _handle_login(self, r):
 		"""
 		Handles and perfoms a login for given response object 
@@ -236,18 +241,20 @@ class MoodleCourseDownloader:
 		r - A response object for which a login is to be treated.
 		"""  
 
-		if r.url.endswith('login/index.php'):
-			logger.info('Login is required: request moodle credentials')
+	
+		if self._is_login_url(r):
 			login_data = self._request_login_data()
-			
 			if login_data is None:
 				raise RuntimeError('Course-Download isn\'t possible login not performed')
-			r = self._session.post('https://moodle.htw-berlin.de/login/index.php', data=login_data)
+
+			r = self._session.post(urljoin(self.base_url, 'login/index.php'), data=login_data)
+			if self._is_login_url(r):
+				raise RuntimeError('Login failed credentials not valid')
 
 		return r
 
 	def _request_login_data(self):
-		print('Login into moodle required')
+		print('Login is required, please enter your moodle credentials!')
 		return {
 			'username': input('username: '),
 			'password': getpass('password: '),
