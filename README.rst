@@ -6,7 +6,7 @@ This program downloads all your course files from https://moodle.htw-berlin.de/
 Installation
 ------------
 
-To install moodle_cli, simpy call:
+To install moodle_cli, simply call:
 
 .. code-block:: bash
 		
